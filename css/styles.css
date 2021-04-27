@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+/* Universal Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Styles for the Html Body */
+body {
+    width: 100vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Styles for Site Navigation Bar */
+header {
+    width: 100%;
+}
+
+
+
+/* Navigation Bar is layed out using CSS Flex */
+nav {
+    width: 85%;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Zen Dots', cursive;
+    color: white;
+}
+
+nav ul {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Main Page Content Styles */
+main {
+    width: 100%;
+}
+
+/* Home Page hero section */
+.home-hero-section {
+    width: 100%;
+    background-image: linear-gradient(
+    to top,
+    rgba(27, 31, 65, 0.9250) 0%,
+    rgba(27, 31, 65, 0.625) 100%
+    ), url('../images/hero-background.jpg');
+    background-size: cover;
+    height: 600px;
+    margin-top: -4rem;
+    color:  white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow-text {
+    color: #feac04;
+}
+
+.gray-text {
+    color: #afafb0;
+}
+
+.hero-section-details h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.hire-me-button {
+    background-color: #feac04;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin-left: 20rem;
+    margin-top: 1rem;
+}
+
+.hire-me-button a {
+    color: black;
+    text-decoration: none;
+}
+
+/* About Me Section Styles */
+.about-me {
+    width: 85%;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.about-me-image {
+    width: 90%;
+}
+
+.about-me-image img {
+    width: 100%;
+}
+
+.about-me-text {
+    width: 70%;
+    margin-left: 2rem;
+}
+.about-me-text h1 {
+    font-size: 35px;
+    padding-bottom: 1rem;
+}
+
+.services-section {
+    width: 85%;
+    padding: 4rem 0;
+    margin: 0 auto;
+}
+
+.services {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.services-section h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.service-card {
+    width: 25%;
+    height: 10rem;
+    padding: 2rem;
+    margin-right: 3rem;
+    border-radius: 1rem;
+    color: white;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.service-card-1 {
+    background-color: #1a1e40;
+}
+.service-card-2 {
+    margin-top: 3rem;
+    background-color: #ff6766;
+}
+
+.service-card-3 {
+    margin-top: 6rem;
+    background-color: #feac04;
+}
+
+.assignments-section {
+    width: 85%;
+    padding: 4rem 0;
+    margin: 0 auto;
+}
+
+.assignments {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.assignment-card {
+    width: 25%;
+    height: 13rem;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 3px 11px 400px -31px rgba(0,0,0,0.38);
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.assignment-card h3 {
+    margin-bottom: 1rem;
+}
+
+.assignment-card-button {
+    background-color: #feac04;
+    color: #1a1e40;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin-top: 1rem;
+}
+
+.assignment-card-button a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Contact Page Styles */
+.contact-page-header,
+.assignment-page-header {
+    background: #1a1e40;
+}
+
+.section-contact-me {
+    width: 60%;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.contact-me-text {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input {
+    padding: 10px;
+    border-radius: 0;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border: 2px solid #000;
+}
+
+.contact-form textarea {
+    padding: 10px;
+    border-radius: 0;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border: 2px solid #000;
+}
+
+.send-message-button {
+    width: 15%;
+    padding: 7px 10px;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #feac04;
+    color: #1a1e40;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.send-button:hover {
+    cursor: pointer;
+}
+/*==================== Assignment Page Styles ==========================*/
+.assignment-page-hero-section {
+    width: 100%;
+    height: 45rem;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.7)),url(../images/hero-bg-2.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.assignment-two-hero-section {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.3), rgba(0,0,0,.1)),url(../images/assignment-two-hero-bg.jpeg);
+}
+
+/* =============== Styles for the Third assignment page ============== */
+.assignment-three-hero-section {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.3), rgba(0,0,0,.6)),url(../images/telegram.jpeg);
+}
+.assignment-three .interview-videos-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.assignment-three h2 {
+    padding-bottom: 2rem;
+    color: #1a1e40;
+}
+
+.interview-videos-box .interview-video-container {
+    width: 30%;
+    background-color: #feac04;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 15rem;
+}
+
+.interview-video-container a {
+    color: #1a1e40;
+    font-size: 15px;
+}
+
+.assignment-three-buttons {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 4rem;
+}
+
+.assignment-three-buttons a {
+    text-decoration: none;
+    background-color: #1a1e40;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+/*===== Styles for Fourth Assignment Page ======*/
+.assignment-four-hero-section {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,.3), rgba(0,0,0,.1)),url(../images/assignment-four-hero-bg.png);
+}
+
+.assignment-four p {
+    text-align: center;
+    padding-top: 0;
+}
+
+.assignment-four-buttons {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 4rem;
+}
+
+.assignment-four-buttons  a {
+    text-decoration: none;
+    background-color: #1a1e40;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+.assignment-content-section {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: -10rem;
+    margin-bottom: 4rem;
+    padding: 2rem;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.assignment-text-container h1 {
+    text-align: center;
+    color: #feac04;
+    padding: 2rem 0;
+}
+
+.assignment-text-container h3 {
+    padding-bottom: 1rem;
+}
+
+.assignment-text-container p {
+    padding: 1rem 0;
+}
+
+.assignment-text-container ul {
+    padding: 1rem 0;
+}
+
+.assignment-text-container ul li {
+    list-style-type: initial;
+}
+/*=================== Footer Styles ==================================*/
+footer {
+    width: 100%;
+    background-color: #1a1e40;
+    border-top-right-radius: 2rem;
+    padding-top: 4rem;
+}
+
+.footer-inner-container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-inner-container a {
+    font-size: 20px;
+    padding-bottom: 1rem;
+    color: #afafb0;
+}
+
+.social-media-links a {
+    color: #1a1e40;
+    margin-left: 0.7rem;
+}
+
+.footer-copyright-text {
+    color: white;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
