@@ -199,6 +199,12 @@ main {
     margin-bottom: 1rem;
 }
 
+.download-btn {
+    color: #242533;
+    margin-top: 3rem;
+}
+
+
 .assignment-card-button {
     background-color: #feac04;
     color: #1a1e40;
@@ -206,6 +212,15 @@ main {
     border-radius: 5px;
     padding: 10px 25px;
     margin-top: 1rem;
+}
+
+.download-buttons-div {
+    margin-top: 2rem;
+}
+
+.download-buttons-div a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .assignment-card-button a {
